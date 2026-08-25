@@ -10,7 +10,6 @@ local LocalPlayer = Players.LocalPlayer
 local PlayerName = LocalPlayer.Name
 local DisplayName = LocalPlayer.DisplayName
 
--- Чистим старые элементы софта, чтобы избежать багов при перезапуске
 if CoreGui:FindFirstChild("NeverRoblox_HUD") then CoreGui.NeverRoblox_HUD:Destroy() end
 if CoreGui:FindFirstChild("NeverRoblox_Welcome") then CoreGui.NeverRoblox_Welcome:Destroy() end
 if CoreGui:FindFirstChild("NeverRoblox_Hub") then CoreGui.NeverRoblox_Hub:Destroy() end
